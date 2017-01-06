@@ -78,7 +78,7 @@ binary.files = $$PWD/CuteVCF
 
 INSTALLS += binary
 
-unix{
+unix {
 
 library.path += $$INSTALL_PREFIX/lib/
 library.files += $$PWD/htslib/libhts.so*
